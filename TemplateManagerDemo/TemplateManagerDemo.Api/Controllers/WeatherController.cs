@@ -1,5 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using TemplateManagerDemo.App.Weather.Contracts.Queries;
+using TemplateManagerDemo.Data.Models.Dtos;
 
 namespace TemplateManagerDemo.Controllers
 {
@@ -14,6 +16,12 @@ namespace TemplateManagerDemo.Controllers
     {
       _mediator = mediator;
       _logger = logger;
+    }
+
+    [HttpGet(Name = "GetWeatherForecast")]
+    public async Task<List<CountryWeatherDto>> Get([FromBody] GetWeatherByCountry request)
+    {
+      return await _mediator.Send(request).ConfigureAwait(false);
     }
   }
 }
