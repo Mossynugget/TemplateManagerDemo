@@ -4,7 +4,7 @@ namespace $setting:namespace$
   using System.Threading.Tasks;$if:ReturnList$
   using System.Collections.Generic;$endif:ReturnList$
   using MediatR;
-  using $setting:projectName$.$Domain$.Contracts.$RequestType$
+  using $setting:projectName$.$Domain$.Contracts.$RequestTypePlural$;
   using $setting:solution$.Data.Models.Dtos;
 
   /// <summary>
