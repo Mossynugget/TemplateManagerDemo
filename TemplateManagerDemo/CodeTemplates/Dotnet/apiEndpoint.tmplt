@@ -11,13 +11,13 @@
   ],
   "Files": [
     {
-      "TemplateName": App\\Mediator\\requestTemplate.cs",
+      "TemplateName": "App\\Mediator\\requestTemplate.cs",
       "FileName": "$ContractName$.cs",
-      "Destination": "$setting:solutionPath$\\$setting:solution$.App\\$Domain$\\Contracts\\$RequestTypePlural$,
+      "Destination": "$setting:solutionPath$\\$setting:solution$.App\\$Domain$\\Contracts\\$RequestTypePlural$",
       "Type": "File",
     },
     {
-      "TemplateName": App\\Mediator\\handlerTemplate.cs",
+      "TemplateName": "App\\Mediator\\handlerTemplate.cs",
       "FileName": "$ContractName$Handler.cs",
       "Destination": "$setting:solutionPath$\\$setting:solution$.App\\$Domain$\\Handlers\\$RequestType$Handlers",
       "Type": "File",
@@ -26,13 +26,13 @@
       "Destination": "$setting:solutionPath$\\$setting:solution$.App.Tests\\$Domain$\\Handlers\\$RequestType$HandlerTests",
       "FileName": "$ContractName$Handler.cs",
       "TemplateName": "Api\\Controller\\ApiSnippet.cs",
-      "LineIdentifier": "    }"
+      "LineIdentifier": "    }",
       "Type": "Snippet",
     },
     {
-      "Destination": "$setting:solutionPath$\\$setting:solution$.App\\$Domain$\\Handlers\\$RequestType$Handlers",
+      "Destination": "$setting:solutionPath$\\$setting:solution$.Api\\$Domain$\\Handlers\\$RequestType$Handlers",
       "FileName": "$ContractName$Handler.cs",
-      "TemplateName": Templates\\handlerTemplate.cs",
+      "TemplateName": "App\\Tests\\Mediator\\handlerTemplateTest.cs",
       "Type": "File",
     }
   ]
