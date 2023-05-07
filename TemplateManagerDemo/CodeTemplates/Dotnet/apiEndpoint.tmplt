@@ -34,6 +34,12 @@
       "FileName": "$ContractName$Handler.cs",
       "TemplateName": "App\\Tests\\Mediator\\handlerTemplateTest.cs",
       "FileType": "File"
+    },
+    {
+      "Destination": "$setting:solutionPath$\\$setting:solution$.Data\\Models\\Dtos",
+      "FileName": "$ReturnedObject$.cs",
+      "TemplateName": "Data\\Models\\Dtos\\dtoTemplate.cs",
+      "FileType": "File"
     }
   ]
 }
