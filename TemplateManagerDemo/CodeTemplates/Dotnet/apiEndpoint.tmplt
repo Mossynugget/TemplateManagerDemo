@@ -14,26 +14,26 @@
       "TemplateName": "App\\Mediator\\requestTemplate.cs",
       "FileName": "$ContractName$.cs",
       "Destination": "$setting:solutionPath$\\$setting:solution$.App\\$Domain$\\Contracts\\$RequestTypePlural$",
-      "Type": "File",
+      "FileType": "File"
     },
     {
       "TemplateName": "App\\Mediator\\handlerTemplate.cs",
       "FileName": "$ContractName$Handler.cs",
       "Destination": "$setting:solutionPath$\\$setting:solution$.App\\$Domain$\\Handlers\\$RequestType$Handlers",
-      "Type": "File",
+      "FileType": "File"
     },
     {
       "Destination": "$setting:solutionPath$\\$setting:solution$.Api\\Controllers",
       "FileName": "$Domain$Controller.cs",
       "TemplateName": "Api\\Controller\\ApiSnippet.cs",
       "LineIdentifier": "    }",
-      "Type": "Snippet"
+      "FileType": "Snippet"
     },
     {
       "Destination": "$setting:solutionPath$\\$setting:solution$.App.Tests\\$Domain$\\Handlers\\$RequestType$HandlerTests",
       "FileName": "$ContractName$Handler.cs",
       "TemplateName": "App\\Tests\\Mediator\\handlerTemplateTest.cs",
-      "Type": "File"
+      "FileType": "File"
     }
   ]
 }
