@@ -23,17 +23,17 @@
       "Type": "File",
     },
     {
-      "Destination": "$setting:solutionPath$\\$setting:solution$.App.Tests\\$Domain$\\Handlers\\$RequestType$HandlerTests",
-      "FileName": "$ContractName$Handler.cs",
+      "Destination": "$setting:solutionPath$\\$setting:solution$.Api\\Controllers",
+      "FileName": "$Domain$Controller.cs",
       "TemplateName": "Api\\Controller\\ApiSnippet.cs",
       "LineIdentifier": "    }",
-      "Type": "Snippet",
+      "Type": "Snippet"
     },
     {
-      "Destination": "$setting:solutionPath$\\$setting:solution$.Api\\$Domain$\\Handlers\\$RequestType$Handlers",
+      "Destination": "$setting:solutionPath$\\$setting:solution$.App.Tests\\$Domain$\\Handlers\\$RequestType$HandlerTests",
       "FileName": "$ContractName$Handler.cs",
       "TemplateName": "App\\Tests\\Mediator\\handlerTemplateTest.cs",
-      "Type": "File",
+      "Type": "File"
     }
   ]
 }
