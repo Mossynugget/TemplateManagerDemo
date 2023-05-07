@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/TemplateManagerDemo/FileContentIndex
+/.vs
+/TemplateManagerDemo/.vs
+/TemplateManagerDemo/TemplateManagerDemo/bin/Debug/net6.0
+/TemplateManagerDemo/TemplateManagerDemo/obj
+/TemplateManagerDemo/TemplateManagerDemo.App/obj
+/TemplateManagerDemo/TemplateManagerDemo.App.Tests/obj
+/TemplateManagerDemo/TemplateManagerDemo.Data/obj
+/TemplateManagerDemo/TemplateManagerDemo.Data.Tests/obj
+/TemplateManagerDemo/WeaptherApp.Tests/obj
