@@ -16,6 +16,5 @@ namespace TemplateManagerDemo.Controllers
       _logger = logger;
     }
     // CodeTemplates
-
   }
 }
