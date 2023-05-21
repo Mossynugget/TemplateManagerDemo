@@ -1,9 +1,9 @@
 using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
-using $setting:projectName$.$Domain$.Contracts.$RequestType$
+using $setting:solution$.App.$Domain$.Contracts.$RequestType$
 
-namespace $setting:projectName$.App.Tests
+namespace $setting:solution$.App.Tests
 {
   public class UnitTest1
   {
