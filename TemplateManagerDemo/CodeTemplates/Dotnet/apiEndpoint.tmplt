@@ -13,13 +13,13 @@
     {
       "TemplateName": "App\\Mediator\\requestTemplate.cs",
       "FileName": "$ContractName$.cs",
-      "Destination": "$setting:solutionPath$\\$setting:solution$.App\\$Domain$\\Contracts\\$RequestTypePlural$",
+      "Destination": "$setting:solutionPath$\\$setting:solution$.App\\Mediator\\$Domain$\\Contracts\\$RequestTypePlural$",
       "FileType": "File"
     },
     {
       "TemplateName": "App\\Mediator\\handlerTemplate.cs",
       "FileName": "$ContractName$Handler.cs",
-      "Destination": "$setting:solutionPath$\\$setting:solution$.App\\$Domain$\\Handlers\\$RequestType$Handlers",
+      "Destination": "$setting:solutionPath$\\$setting:solution$.App\\Mediator\\$Domain$\\Handlers\\$RequestType$Handlers",
       "FileType": "File"
     },
     {
